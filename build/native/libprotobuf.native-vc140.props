@@ -6,7 +6,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <LibProtobufFile>libprotobufd.lib</LibProtobufFile>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Relase' ">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <LibProtobufFile>libprotobuf.lib</LibProtobufFile>
   </PropertyGroup>
 </Project>
