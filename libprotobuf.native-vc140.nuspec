@@ -12,13 +12,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Protocol Buffers are a way of encoding structured data in an efficient yet extensible format.</description>
     <summary>Protocol Buffers libraries for Visual C++ compiled using v140 platform.</summary>
-    <releaseNotes>General
-
+    <releaseNotes>### General
 * Proto3 support in PHP (alpha).
 * Various bug fixes.
 
 
-C++
+### C++
 * Added MessageLite::ByteSizeLong() that’s equivalent to MessageLite::ByteSize() but returns the value in size_t. Useful to check whether a message is over the 2G size limit that protobuf can support.
 * Moved default_instances to global variables. This allows default_instance addresses to be known at compile time.
 * Adding missing generic gcc 64-bit atomicops.
