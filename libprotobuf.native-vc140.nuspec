@@ -31,6 +31,6 @@
   </metadata>
   <files>
     <file src="build\**\*.*" target="build" />
-    <file src="LICENSE-protobuf" />
+    <file src="assets\LICENSE.txt" target=".\" />
   </files>
 </package>
