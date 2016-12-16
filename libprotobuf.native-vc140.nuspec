@@ -26,7 +26,12 @@ C++
 * JSON support.
   * Fixed some conformance issues.
 * Fixed a JSON serialization bug for bytes fields.
+</releaseNotes>
     <copyright>Copyright 2014, Google Inc.  All rights reserved.</copyright>
     <tags>native cpp protobuf serialization nativepackage</tags>
   </metadata>
+  <files>
+    <file src="build\**\*.*" target="build" />
+    <file src="LICENSE-protobuf" />
+  </files>
 </package>
