@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>libprotobuf.native-vc140</id>
+    <version>3.1.0-zlocal</version>
+    <title>Protocol Buffers (Visual C++ Platform v140)</title>
+    <authors>google</authors>
+    <owners>jozefizso</owners>
+    <licenseUrl>https://github.com/google/protobuf/raw/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/google/protobuf</projectUrl>
+    <iconUrl>https://github.com/goitsk/libprotobuf.native-vc140/raw/master/assets/grpc_square_reverse_4x.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Protocol Buffers are a way of encoding structured data in an efficient yet extensible format.</description>
+    <summary>Protocol Buffers libraries for Visual C++ compiled using v140 platform.</summary>
+    <releaseNotes>General
+
+* Proto3 support in PHP (alpha).
+* Various bug fixes.
+
+
+C++
+* Added MessageLite::ByteSizeLong() that’s equivalent to MessageLite::ByteSize() but returns the value in size_t. Useful to check whether a message is over the 2G size limit that protobuf can support.
+* Moved default_instances to global variables. This allows default_instance addresses to be known at compile time.
+* Adding missing generic gcc 64-bit atomicops.
+* Restore New*Callback into google::protobuf namespace since these are used by the service stubs code
+* JSON support.
+  * Fixed some conformance issues.
+* Fixed a JSON serialization bug for bytes fields.
+    <copyright>Copyright 2014, Google Inc.  All rights reserved.</copyright>
+    <tags>native cpp protobuf serialization nativepackage</tags>
+  </metadata>
+</package>
